@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit local credentials
+.streamlit/secrets.toml
+
+# Archivo gigante (>220 MB) que supera el límite de 100 MB de GitHub
+01_datos/procesados/compras_presupuesto_items.csv
+
+# Archivos comprimidos pesados
+*.rar
+*.zip
+
+# Entorno y logs
+*.log
+.DS_Store
+Thumbs.db
